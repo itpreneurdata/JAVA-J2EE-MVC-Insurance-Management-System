@@ -26,7 +26,7 @@ import in.co.insurance.mgt.util.ServletUtility;
  */
 
 
-@WebServlet("/BaseCtl")
+@WebServlet("/BaseCtl1")
 public abstract class BaseCtl extends HttpServlet
 {
 	private static final Logger log=Logger.getLogger(BaseCtl.class);
