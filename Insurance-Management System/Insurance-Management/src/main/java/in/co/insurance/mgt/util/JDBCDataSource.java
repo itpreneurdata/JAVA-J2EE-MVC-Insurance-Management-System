@@ -84,7 +84,8 @@ public class JDBCDataSource
 
     public static void trnRollback(Connection connection)
             throws ApplicationException {
-        if (connection != null) {
+        if (connection != null) 
+        {
             try {
                 connection.rollback();
             } catch (SQLException ex) {
